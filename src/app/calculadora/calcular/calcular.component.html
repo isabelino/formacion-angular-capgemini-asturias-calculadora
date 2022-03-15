@@ -1,0 +1,19 @@
+<input type="number" name="num1" placeholder="ingrese numero" class="form-control" [(ngModel)]="num1">
+<input type="number" name="num2" placeholder="ingrese numero" class="form-control" [(ngModel)]="num2">
+    <div class="row align-items-center">
+      <div class="col">
+        <button class="btn btn-info" type="button" (click)="sumar()" >Sumar</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-primary" type="button" (click)="restar()">Restar</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-info" type="button" (click)="multiplicar()">Multiplicar</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-primary" type="button" (click)="dividir()">Dividir</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-danger" type="button" (click)="limpiar()">Limpiar</button>
+      </div>
+    </div>
